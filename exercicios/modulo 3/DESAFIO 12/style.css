@@ -1,7 +1,16 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Meow+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --principal:'Courier New', Courier, monospace;
+    --secund:"Meow Script", cursive;
+}
 *{
     margin: 0px;
     padding: 0px;
+    font-family: var(--principal);
+    
 }
 html,body{
     background-color: darkgray;
@@ -11,6 +20,7 @@ header{
     background-color: black;
     color:white;
     text-align: center;
+    font-family: var(--secund);
 }
 header>h1{
     padding-top: 50px;
@@ -42,7 +52,7 @@ section.imagem>p{
     background-color:rgb(34, 32, 32) ;
 }
 .imagem{
-     background-color: black;
+     background-color: rgb(16, 16, 16);
     color: white;
 
 }
