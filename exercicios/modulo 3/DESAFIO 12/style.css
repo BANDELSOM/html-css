@@ -43,6 +43,12 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
+section #img02{
+    background-image: url(./imagens/background001.jpg);
+}
+section #img01{
+    background-image: url(./imagens/background001.jpg);
+}
 .normal{
     background-color: white;
     color: black;
