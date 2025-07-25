@@ -42,12 +42,18 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    padding: 20vh 10% 20vh 10%
 }
-section #img02{
+ #img02{
     background-image: url(./imagens/background001.jpg);
+     background-position: right center;
+     background-size: cover;
 }
-section #img01{
-    background-image: url(./imagens/background001.jpg);
+ #img01{
+    background-image: url(./imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+
 }
 .normal{
     background-color: white;
@@ -55,11 +61,16 @@ section #img01{
 }
 section.imagem>p{
     width: 400px;
-    background-color:rgb(34, 32, 32) ;
+    border-radius: 30px;
+    padding: 20px;
+    background-color:rgba(34, 32, 32, 0.489) ;
+    text-shadow: 1px 1px 1px black;
 }
 .imagem{
      background-color: rgb(16, 16, 16);
     color: white;
+    box-shadow: inset 5px 5px 6px rgba(0, 0, 0, 0.234);
+    background-attachment: fixed;
 
 }
 footer{
